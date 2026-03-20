@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import about_profile from '../../assets/profile_img.png'
+import about_profile from '../../assets/profile_img.jpg'
 
 const About = () => {
     return (
@@ -22,7 +22,7 @@ Right now, I’m sharpening my skills in technologies like Java, Spring Boot, HT
                         <p>This site is my space to showcase what I’m working on and how I’m growing in the tech world. Feel free to explore my projects — and if you’re into clean code, creative problem-solving, or just want to connect, let’s talk.</p>
                     </div>
                     <div className="about-skills">
-                        <div className="about-skill"> <p>Forent-end</p><hr style={{ width: "50%" }} /> </div>
+                        <div className="about-skill"> <p>Front-end</p><hr style={{ width: "50%" }} /> </div>
                         <div className="about-skill"> <p>Database</p><hr style={{ width: "70%" }} /> </div>
                         <div className="about-skill"> <p>Java</p><hr style={{ width: "90%" }} /> </div>
                         <div className="about-skill"> <p>Spring-boot</p><hr style={{ width: "20%" }} /> </div>
